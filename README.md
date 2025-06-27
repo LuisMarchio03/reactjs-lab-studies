@@ -2,7 +2,7 @@
 
 Este repositório é um laboratório de estudos práticos, testes e aprofundamentos em **ReactJS**, com foco em arquitetura de componentes, gerenciamento de estado, testes automatizados e uso de ferramentas modernas do ecossistema.
 
-> **ℹ️ Aviso:** Este repositório compila anotações, projetos, experimentos e provas de conceito desenvolvidas entre **2019 até os dias atuais** — com foco em aprendizado progressivo e revisão técnica contínua.
+> **ℹ️ Aviso:** Este repositório compila anotações, projetos, experimentos e provas de conceito desenvolvidas entre **2020 até os dias atuais** — com foco em aprendizado progressivo e revisão técnica contínua.
 
 ---
 
