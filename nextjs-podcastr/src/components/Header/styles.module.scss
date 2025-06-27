@@ -1,0 +1,40 @@
+.headerContainer {
+  background: var(--white);
+  height: 6.5rem;
+
+  display: flex;
+  align-items: center;
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+    height: 12rem;
+    padding: 0;
+  }
+
+  padding: 2rem 4rem;
+
+  border-bottom: 1px solid var(--gray-100);
+
+  p {
+    margin-left: 2rem;
+    padding: 0.25rem 0.25rem 2rem;
+    border-left: 1px solid var(--gray-100);
+  }
+
+  span {
+    margin-left: auto;
+    text-transform: capitalize;
+    margin-right: 4rem;
+
+    @media (max-width: 900px) {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 1rem;
+    }
+  }
+
+  svg {
+    font-size: 2.5rem;
+    cursor: pointer;
+  }
+}
