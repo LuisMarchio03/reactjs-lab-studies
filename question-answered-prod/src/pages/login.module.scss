@@ -1,0 +1,52 @@
+.loginContainer {
+  width: 100%;
+  height: 100vh;
+
+  background: linear-gradient(
+    250deg,
+    var(--bg-one) 20%,
+    var(--bg-two) 80%
+  );
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  > img {
+    margin-bottom: 2rem;
+  }
+
+  > strong {
+    font: 500 2.5rem 'Tourney', 'Oswald', sans-serif;
+    margin-left: -1rem;
+    color: var(--white);
+  }
+}
+
+.buttonContainer {
+  margin-top: 2rem;
+
+  > button {
+    min-width: 250px;
+    min-height: 45px;
+
+    border: 0;
+    border-radius: 35px;
+
+    background: var(--button-auth);
+    color: var(--button-color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    > span {
+      margin-top: 5px;
+      margin-right: 5px;
+      > svg {
+        font-size: 1.3rem;
+      }
+    }
+  }
+}

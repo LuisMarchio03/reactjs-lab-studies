@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Oswald:wght@300;400;500&family=Roboto:wght@300;400;500;700&family=Tourney:wght@500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-one: #57B6E5;
+  --bg-two: #8257E5;
+  --color-default: #333333;
+
+  --button-default: #03AB4F;
+  --button-auth: #333333;
+  --button-close: #CC3750;
+
+  --button-color: #ffffff;
+
+  --alert-success: #00C851;
+  --alert-warning: #ffbb33;
+  --alert-danger: #ff4444;
+  --alert-info: #33b5e5;
+
+  --experience: #4cd62b;
+  --gray-line:#dcdde0;
+
+  --purple: #8257E5;
+  --white: #f8f8f8;
+  --green: #03AB4F;
+  --orange: #E8891C;
+  --red: #CC3750;
+  --gray: #333333;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%; //15px
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%; // 14px
+  }
+}
+
+*, a, input, button, textarea {
+  font: 400 1rem 'Open Sans', 'Roboto', sans-serif;
+  color: var(--color-default);
+}
+
+button {
+  cursor: pointer;
+}
